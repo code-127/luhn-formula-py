@@ -12,7 +12,7 @@ Another Python ID validator and check digit generator package based on Luhn's fo
 ### install
     pip install luhn-formula
     
-    or
+or
     
     git clone git@github.com:code-127/luhn-formula.git
 ### Example
