@@ -10,6 +10,10 @@ Another Python ID validator and check digit generator package based on Luhn's fo
 
 ## Usage
 ### install
+    pip install luhn-formula
+    
+    or
+    
     git clone git@github.com:code-127/luhn-formula.git
 ### Example
     >>> from luhnformula import luhnformula as lf
