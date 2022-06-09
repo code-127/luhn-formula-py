@@ -1,5 +1,5 @@
 # luhn-formula
-Another Python ID validator and check digit generator package based on Luhn's formula :wink:. Luhn Formula was designed to protect against accidental input errors.
+Another python package of number validator and check digit generator based on Luhn's formula 😉. Luhn's formula was designed to protect against accidental input errors.
 
 [![Python package](https://github.com/code-127/luhn-formula/actions/workflows/python-package.yml/badge.svg)](https://github.com/code-127/luhn-formula/actions/workflows/python-package.yml)
 [![Upload Python Package](https://github.com/code-127/luhn-formula/actions/workflows/python-publish.yml/badge.svg)](https://github.com/code-127/luhn-formula/actions/workflows/python-publish.yml)
