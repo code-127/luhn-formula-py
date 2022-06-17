@@ -24,6 +24,13 @@ or
     >>> lf.isvalid("123455")
     True
 ## Function
+### checksum(number: str) -> int
+    Checksum vith the luhn formula
+    Args:
+        number : Number to calculate
+    return:
+        Result of luhn formula
+    
 ### isvalid(number: str) -> bool:
     Validate number with the Luhn formula.
     Args:
