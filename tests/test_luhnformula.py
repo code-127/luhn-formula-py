@@ -1,9 +1,10 @@
-# test_luhnFormula
+""" Test function of luhn's Formula """
 
 from src.luhnformula import luhnformula as lf
 
 
 def test_checksum():
+    """ Test function luhn's Formula checksum"""
     assert lf.checksum('120027016') == 0
     assert lf.checksum('79927398713') == 0
     assert lf.checksum('00717324800068') == 0
@@ -14,6 +15,7 @@ def test_checksum():
 
 
 def test_validate():
+    """ Test function luhn's Formula is valid"""
     assert lf.isvalid('1') is False
     assert lf.isvalid('7992739Z713') is False
     assert lf.isvalid('1234567890') is False
@@ -27,6 +29,7 @@ def test_validate():
 
 
 def test_getcheckdigit():
+    """ Test function luhn's Formula getcheckdigit with exception"""
     try:
         lf.getcheckdigit('34F4')
     except ValueError:
@@ -41,6 +44,7 @@ def test_getcheckdigit():
 
 
 def test_addcheckdigit():
+    """ Test function luhn's Formula addcheckdigit with exception"""
     try:
         lf.addcheckdigit('34F4')
     except ValueError:

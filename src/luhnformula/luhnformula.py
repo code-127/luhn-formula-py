@@ -1,6 +1,6 @@
 """
-Python ID validator and check digit generator package based on Luhn's formula.
-Luhn's Formula was designed to protect against accidental input errors.
+Number validator and check digit generator based on Luhn's formula.
+Luhn's formula was designed to protect against accidental input errors.
 """
 
 # Precomputed even value to improve performance and energy impact
@@ -20,7 +20,7 @@ __PrecomputedEvenValue = [0, 2, 4, 6, 8, 1, 3, 5, 7, 9]
 def checksum(number: str) -> int:
     """Checksum vith the luhn formula
     Args:
-        number : Numbeer to calculate
+        number : Number to calculate
     return:
         Result of luhn formula
     """
@@ -39,7 +39,7 @@ def isvalid(number: str) -> bool:
     """
     if not (number.isdecimal() and len(number) > 1):
         return False
-    return (checksum(number) == 0)
+    return checksum(number) == 0
 
 
 def getcheckdigit(number: str) -> str:
