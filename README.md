@@ -4,6 +4,8 @@ Another python package of number validator and check digit generator based on Lu
 [![Python package](https://github.com/code-127/luhn-formula-py/actions/workflows/python-package.yml/badge.svg)](https://github.com/code-127/luhn-formula-py/actions/workflows/python-package.yml)
 [![Upload Python Package](https://github.com/code-127/luhn-formula-py/actions/workflows/python-publish.yml/badge.svg)](https://github.com/code-127/luhn-formula-py/actions/workflows/python-publish.yml)
 
+[![Python 3.8](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![Python 3.8](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
