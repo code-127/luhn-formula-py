@@ -1,8 +1,8 @@
 # luhn-formula
 Another python package of number validator and check digit generator based on Luhn's formula 😉. Luhn's formula was designed to protect against accidental input errors.
 
-[![Python package](https://github.com/code-127/luhn-formula/actions/workflows/python-package.yml/badge.svg)](https://github.com/code-127/luhn-formula/actions/workflows/python-package.yml)
-[![Upload Python Package](https://github.com/code-127/luhn-formula/actions/workflows/python-publish.yml/badge.svg)](https://github.com/code-127/luhn-formula/actions/workflows/python-publish.yml)
+[![Python package](https://github.com/code-127/luhn-formula-py/actions/workflows/python-package.yml/badge.svg)](https://github.com/code-127/luhn-formula-py/actions/workflows/python-package.yml)
+[![Upload Python Package](https://github.com/code-127/luhn-formula-py/actions/workflows/python-publish.yml/badge.svg)](https://github.com/code-127/luhn-formula-py/actions/workflows/python-publish.yml)
 
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
@@ -14,7 +14,7 @@ Another python package of number validator and check digit generator based on Lu
     
 or
     
-    git clone git@github.com:code-127/luhn-formula.git
+    git clone git@github.com:code-127/luhn-formula-py.git
 ### Example
     >>> from luhnformula import luhnformula as lf
     >>> lf.getcheckdigit("12345")
