@@ -1,9 +1,9 @@
 # luhn-formula
 Another python package of number validator and check digit generator based on Luhn's formula 😉. Luhn's formula was designed to protect against accidental input errors.
 
+![Licence](https://img.shields.io/github/license/code-127/luhn-formula-py)
 ![PyPI](https://img.shields.io/pypi/v/luhn-formula?label=pypi%20luhn-formula)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/luhn-formula)
-
 [![Python package](https://github.com/code-127/luhn-formula-py/actions/workflows/python-package.yml/badge.svg)](https://github.com/code-127/luhn-formula-py/actions/workflows/python-package.yml)
 [![Upload Python Package](https://github.com/code-127/luhn-formula-py/actions/workflows/python-publish.yml/badge.svg)](https://github.com/code-127/luhn-formula-py/actions/workflows/python-publish.yml)
 
